@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  font-family: "Roboto";
+}
+body {
+  background-color: rgba(44, 0, 238, 0.493);
+}
+.delete {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.89);
+  border-radius: 3px;
+  padding: 70px 100px;
+}
+
+select {
+  position: absolute;
+  top: 1%;
+  left: 45%;
+  margin-bottom: 1em;
+  padding: 0.25em;
+  border: 0;
+  border-bottom: 2px solid currentcolor;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  border-radius: 0;
+  &:focus,
+  &:active {
+    outline: 0;
+    border-bottom-color: red;
+  }
+}
+
+.choose-submit {
+  position: absolute;
+  top: 5%;
+  left: 47.5%;
+}
+
+input[type="submit"] {
+  background-color: #ff009d;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
